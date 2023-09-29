@@ -7,7 +7,7 @@ function LoginForm() {
 
         <div className='login-con'>
             <div className='login-desc'>
-                <div>
+                <div className="login-desc-text-con">
                     <p className='login-con-text'>Serching for <b>Augmented Develepemented</b> Teams to stree your product towaed triumph?"</p>
                 </div>
                 <div className='success-desc'>
@@ -19,7 +19,7 @@ function LoginForm() {
                         <h3>80%+</h3>
                         <p>Project successfully completed</p>
                     </div>
-                    <div>
+                    <div className='last-desc'>
                         <h3>60%+</h3>
                         <p>of the clinent converted into
                             long term engagement partner
@@ -54,14 +54,17 @@ function LoginForm() {
                                     <input type="text" class="login__input" placeholder="Contact Number" />
                                 </div>
                             </div>
-                            <div class="login__field">
-                                <i class="login__icon fas fa-user"></i>
-                                <input type="text" class="login__input" placeholder="Tell us your requirements*" />
-                            </div>
                             <div className='inputs'>
-                                
-                        <button className='buttons-1' style={{ width: "85px" }}> Submit</button>
-                        <button className='buttons-1' style={{ width: "40px" }}> <FaArrowRight /></button>
+
+                                <div class="login__field">
+                                    <i class="login__icon fas fa-user"></i>
+                                    <input type="text" class="login__input" placeholder="Tell us your requirements*" />
+                                </div>
+                            </div>
+                            <div className='inputs-btn'>
+
+                                <button className='buttons-1' style={{ width: "85px" }}> Submit</button>
+                                <button className='buttons-1' style={{ width: "40px" }}> <FaArrowRight /></button>
                             </div>
                         </form>
                     </div>
